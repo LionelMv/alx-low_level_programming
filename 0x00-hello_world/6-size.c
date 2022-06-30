@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main fun-entry point
+ * main - entry point
  * Return: Always 0 (Success)
  */
 int main(void)

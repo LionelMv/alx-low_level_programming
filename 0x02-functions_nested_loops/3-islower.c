@@ -5,7 +5,7 @@
  *
  * @c: The character to evaluate.
  *
- * Return 1 if lowercase, 
+ * Return: 1 if lowercase,
  * get 0 otherwise.
  */
 

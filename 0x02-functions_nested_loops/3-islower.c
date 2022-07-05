@@ -5,8 +5,10 @@
  *
  * @c: The character to evaluate.
  *
- * Return 1 if lowercase, else 0.
+ * Return 1 if lowercase, 
+ * get 0 otherwise.
  */
+
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)

@@ -1,9 +1,6 @@
 #include "main.h"
 /**
- * main - checks to print if an integer is positive or negative
- * 
- * @i: variable to be checked.
- * 
+ * main - tests function that prints if integer is positive or negative 
  * Return: 0
  */
 

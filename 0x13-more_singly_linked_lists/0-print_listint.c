@@ -3,12 +3,12 @@
 /**
  * print_listint - prints all the elements of a linked list
  * @h: linked list of type listint_t to print
- *
+ * @count: counts the number of elements
  * Return: number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t num = 0;
+	size_t count = 0;
 
 /**
  * Not creating another ptr is because,
@@ -18,9 +18,9 @@ size_t print_listint(const listint_t *h)
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
-		num++;
+		count++;
 		h = h->next;
 	}
 
-	return (num);
+	return (count);
 }

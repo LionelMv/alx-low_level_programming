@@ -3,8 +3,6 @@
 /**
  * print_listint - prints all the elements of a linked list.
  * @h: pointer to the first node of the linked list.
- * Not creating another ptr is because,
- * we are not dealing
  * @count: counts the number of nodes.
  * Return: number of nodes
  */

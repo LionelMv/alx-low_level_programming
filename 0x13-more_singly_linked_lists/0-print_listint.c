@@ -1,9 +1,11 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of a linked list
- * @h: linked list of type listint_t to print
- * @count: counts the number of elements
+ * print_listint - prints all the elements of a linked list.
+ * @h: pointer to the first node of the linked list.
+ * Not creating another ptr is because,
+ * we are not dealing
+ * @count: counts the number of nodes.
  * Return: number of nodes
  */
 size_t print_listint(const listint_t *h)
